@@ -1,0 +1,75 @@
+.resources__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px 0px;
+  gap: 40px;
+}
+.resources__top__title {
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: var(--primaryColor);
+  padding: 40px 0px 10px;
+}
+
+.resources__top__text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: var(--primaryColor);
+  padding: 20px 0px;
+}
+
+.resources__card {
+  width: 30%;
+  padding: 20px;
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+.resources__card:hover {
+  background-color: aqua;
+}
+
+.resources__card__title {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: var(--primaryColor);
+  padding: 20px 0px;
+}
+
+@media (max-width:1000px) {
+  .resources__cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .resources__card {
+    width: 45%;
+  }
+}
+
+@media (max-width:700px) {
+  .resources__card {
+    width: 75%;
+  }
+}
+
+@media (max-width:450px) {
+  .resources__card {
+    width: 100%;
+  }
+}

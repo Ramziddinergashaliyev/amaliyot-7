@@ -1,0 +1,89 @@
+.coursor {
+  padding: 50px 0px;
+}
+
+.coursor__card__title {
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 51px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--primaryColor);
+}
+
+.coursor__card__text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--primaryColor);
+}
+
+.coursor__cards {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.coursor__card {
+  width: 32%;
+  border: 1px solid #DEDEDE;
+}
+
+.coursor__card__bottom {
+  padding: 20px;
+
+}
+
+.coursor__card img {
+  width: 100%;
+}
+
+.coursor__card__bottom__title {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--primaryColor);
+  padding: 10px 0px;
+}
+
+@media (max-width:900px) {
+  .coursor__cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .coursor__card {
+    width: 45%;
+  }
+}
+
+@media (max-width:700px) {
+  .coursor__card {
+    width: 65%;
+  }
+}
+
+@media (max-width:500px) {
+  .coursor__card {
+    width: 85%;
+  }
+}
+
+@media (max-width:400px) {
+  .coursor__card {
+    width: 100%;
+  }
+
+  .coursor__card__bottom__title {
+    font-size: 20px;
+  }
+}
