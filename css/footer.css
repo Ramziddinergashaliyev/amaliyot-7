@@ -20,6 +20,10 @@
   color: var(--primaryColor);
 }
 
+.footer__item__list:hover {
+  color: var(--hoverColor)
+}
+
 .footer__title {
   font-family: Poppins;
   font-size: 20px;

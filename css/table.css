@@ -11,6 +11,7 @@
   text-align: center;
   border-radius: 5px;
   box-shadow: 0px 2px 8px 0px #00000040;
+  transition: 1s;
 }
 
 .table__card:hover {
